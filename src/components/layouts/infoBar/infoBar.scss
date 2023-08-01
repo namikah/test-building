@@ -1,0 +1,47 @@
+.row.main-info {
+  // margin: 100px 0 0 0;
+  .main-info-card {
+    a {
+      height: 120px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 8px rgb(202, 202, 202);
+      display: block;
+      text-decoration: none;
+      transition: 0.2s all;
+      margin-bottom: 30px;
+      &.income {
+        background-color: rgba(2, 255, 141, 0.3);
+      }
+      &.cost {
+        background-color: rgba(255, 0, 0, 0.3);
+      }
+      &.will-take {
+        background-color: rgba(200, 245, 22, 0.3);
+      }
+      &.overpayment {
+        background-color: rgba(127, 255, 212, 0.3);
+      }
+      h4 {
+        color: rgba(0, 0, 0, 0.65);
+      }
+      p {
+        color: rgba(0, 0, 0, 0.55);
+      }
+      &:hover {
+        box-shadow: 0 0 10px 8px rgb(170, 170, 170);
+        &.income {
+            background-color: rgba(2, 255, 141, 0.6);
+          }
+          &.cost {
+            background-color: rgba(255, 0, 0, 0.6);
+          }
+          &.will-take {
+            background-color: rgba(200, 245, 22, 0.6);
+          }
+          &.overpayment {
+            background-color: rgba(127, 255, 212, 0.6);
+          }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+header {
+  z-index: 99999999999999;
+  margin-bottom: 90px;
+  #header-default {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    box-shadow: 0 0 10px 8px rgb(202, 202, 202);
+    z-index: 99999999999999;
+    a {
+      text-decoration: none;
+      &.logo {
+        overflow: hidden;
+        border-radius: 100%;
+      }
+      &:hover {
+        svg {
+          transform: scale(1.2);
+        }
+        img {
+          transform: scale(1.1);
+        }
+      }
+      svg {
+        transition: 0.5s all;
+        color: orange !important;
+      }
+      img {
+        transition: 0.5s all;
+      }
+      h6 {
+        font-size: 16px;
+        font-weight: 600;
+        color: darkblue;
+        letter-spacing: 2px;
+        margin: 0;
+      }
+      img {
+        border-radius: 100%;
+        width: 100px;
+        height: 70px;
+      }
+      &.user {
+        border-radius: 100%;
+        overflow: hidden;
+        width: 100px;
+        height: 70px;
+        background-color: white;
+        img {
+          border-radius: 100%;
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}

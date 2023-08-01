@@ -1,0 +1,23 @@
+#error-section {
+  height: 100%;
+  .container {
+    div {
+      img {
+        margin-top: 50px;
+        width: 150px;
+        height: 100px;
+      }
+      h2 {
+        font-size: 100px;
+        color: red;
+        padding: 15px 0;
+        border-bottom: 1px solid black;
+      }
+      h4 {
+        font-size: 25px;
+        color: rgba(0, 0, 139, 0.6);
+        padding: 15px 0;
+      }
+    }
+  }
+}
