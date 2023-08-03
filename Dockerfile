@@ -20,7 +20,7 @@ RUN npm run build
 RUN npm install -g serve
 
 # Set the command to run the production build using serve
-CMD ["serve", "-s", "build"]
+CMD ["serve", "-s", "build", "-l", "80", "-l", "443"]
 
 # Expose the port that serve will be running on
 EXPOSE 80
